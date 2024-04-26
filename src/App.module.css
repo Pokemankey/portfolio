@@ -203,6 +203,7 @@
     .onlineWrapper p:not(:first-of-type){font-size: 3.125vw;}
     .link p{font-size: 3.125vw;}
     .timeLineWrapper p{font-size: 3.125vw;}
+    .pdfWrapper {display: none;}
 }
 
 /* BOT MEDIA QUERIES */
