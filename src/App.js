@@ -173,18 +173,18 @@ function App() {
               <h3>Blind Helmet</h3>
               <p>Built an AI powered helmet to aid the blind by performing functions just as object detection, facial recognition, Gemini integration and much more...</p>
               <div className={styles.iconsWrapper}>
-                <img src={mongoDBIcon} />
                 <img src={pythonIcon} />
-                <img src={awsIcon} />
+                <img src={raspberryIcon} />
+                <img src={yoloIcon} />
               </div>
             </div>
             <div className={styles.projectsCard}>
               <h3>Rescue Edge</h3>
               <p>Built an AI powered drone that can detect humans under rubble and in need of help. Detections with geo location is passed into our app.</p>
               <div className={styles.iconsWrapper}>
-                <img src={reactIcon} />
-                <img src={nodeIcon} />
                 <img src={pythonIcon} />
+                <img src={flaskIcon} />
+                <img src={raspberryIcon} />
                 <img src={awsIcon} />
               </div>
             </div>
@@ -192,8 +192,10 @@ function App() {
               <h3>Smart Water Meter</h3>
               <p>Created an innovative project deploying IoT technology to upgrade water meters, ensuring real-time monitoring and improved accuracy. Hosted it up on AWS</p>
               <div className={styles.iconsWrapper}>
-                <img src={mongoDBIcon} />
-                <img src={pythonIcon} />
+                <img src={arduinoIcon} />
+                <img src={reactIcon} />
+                <img src={nodeIcon} />
+                <img src={expressIcon} />
                 <img src={awsIcon} />
               </div>
             </div>
@@ -201,8 +203,10 @@ function App() {
               <h3>Volunteer Me</h3>
               <p>Created 2 React Native Applications, one for business side to create volunteering jobs and find volunteers and the other app to let users find volunteering jobs</p>
               <div className={styles.iconsWrapper}>
-                <img src={mongoDBIcon} />
-                <img src={pythonIcon} />
+                <img src={reactIcon} />
+                <img src={nodeIcon} />
+                <img src={expressIcon} />
+                <img src={mysqlIcon} />
                 <img src={awsIcon} />
               </div>
             </div>
@@ -210,7 +214,6 @@ function App() {
               <h3>Zero Gravity</h3>
               <p>This project was a 2d Video Game which had multiple game modes to play from, this game was posted on play store, but then was later removed.</p>
               <div className={styles.iconsWrapper}>
-                <img src={mysqlIcon} />
                 <img src={unityIcon} />
               </div>
             </div>
@@ -218,8 +221,7 @@ function App() {
               <h3>Discord Chatbot</h3>
               <p>Created a discord chatbot using nodejs and hosted on Heroku. it performed various functions such as playing audio clips, playing music, interaction with users and many more...</p>
               <div className={styles.iconsWrapper}>
-                <img src={mongoDBIcon} />
-                <img src={pythonIcon} />
+                <img src={nodeIcon} />
                 <img src={awsIcon} />
               </div>
             </div>
