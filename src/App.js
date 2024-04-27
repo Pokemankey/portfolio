@@ -157,7 +157,7 @@ function App() {
             </div>
             <div className={styles.leftTimeLineBox}>
               <div className={styles.dotsLeft}></div>
-              <p><span>September 2024</span><br /><br />Bachelor of Technology in Computer Sciencefrom Amity University Dubai</p>
+              <p><span>September 2024</span><br /><br />Bachelor of Technology in Computer Science from Amity University Dubai</p>
             </div>
             {/* <div className={styles.rightTimeLineBox}>
               <div className={styles.dotsRight}></div>
