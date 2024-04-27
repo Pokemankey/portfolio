@@ -28,7 +28,8 @@ import { useState, useRef, useEffect } from 'react'
 
 function App() {
   const [openChat, setOpenChat] = useState(false)
-  const [messages, setMessages] = useState([{ message: "Hello! Ask Me Anything About Srilakshman?", from: "bot" }])
+  // const [messages, setMessages] = useState([{ message: "Hello! Ask Me Anything About Srilakshman?", from: "bot" }])
+  const [messages, setMessages] = useState([{ message: "The chatbot is currently unavailable. \nIf you would like to contact Srilakshman you can do so through the following:\n Email: srilakshman.k02@gmail.com\nPhone No:0521351776", from: "bot" }])
   const [waitingOnResponse, setWaitingOnResponse] = useState(false)
   const [dots, setDots] = useState('.');
   const [showPDF, setShowPDF] = useState(false);
@@ -40,7 +41,7 @@ function App() {
 
   const handleKeyPress = (event) => {
     if (event.key === 'Enter') {
-      handleMessageSend();
+      // handleMessageSend();
     }
   };
 
@@ -121,7 +122,7 @@ function App() {
           </div>
           <div className={styles.mainText}>
             <h2>Hey, I'm Srilakshman</h2>
-            <h1>Fullstack Developer.</h1>
+            <h1>Software Engineer.</h1>
           </div>
           <div className={styles.links}>
             <a href='https://github.com/Pokemankey'>
@@ -144,7 +145,7 @@ function App() {
             </a>
           </div>
           <div className={styles.headerContent}>
-            <p>Hi, I am Srilakshman, Experienced full-stack developer from India, with 3 years of expertise in React, Next, Node.js, and Postgres. Ready to create innovative web solutions!</p>
+            <p>Hi, I am Srilakshman, Final year student at Amity University Dubai, with a passion for innovation and problem-solving. Ready to create innovative solutions for real world applications!</p>
           </div>
         </div>
         <div className={styles.timeLineWrapper}>
@@ -152,16 +153,16 @@ function App() {
           <div className={styles.timeLine}>
             <div className={styles.rightTimeLineBox}>
               <div className={styles.dotsRight}></div>
-              <p><span>September 2021</span><br /><br />Diploma in computer engineering from Birla Institute of technology</p>
+              <p><span>August 2020</span><br /><br />Highschool Diploma from Our Own Indian Highschool Dubai</p>
             </div>
             <div className={styles.leftTimeLineBox}>
               <div className={styles.dotsLeft}></div>
-              <p><span>September 2023</span><br /><br />Bachelor of Technology in Computer Sciencefrom Amity University Dubai</p>
+              <p><span>September 2024</span><br /><br />Bachelor of Technology in Computer Sciencefrom Amity University Dubai</p>
             </div>
-            <div className={styles.rightTimeLineBox}>
+            {/* <div className={styles.rightTimeLineBox}>
               <div className={styles.dotsRight}></div>
               <p><span>Current</span><br /><br />Web Developer in Cheil</p>
-            </div>
+            </div> */}
 
           </div>
         </div>
@@ -291,7 +292,8 @@ function App() {
             </div>
             <div className={styles.chatInputWrapper}>
               <input ref={messageInputRef} placeholder='Ask Something About Srilakshman' onKeyDown={handleKeyPress}></input>
-              <div onClick={handleMessageSend} className={styles.sendButton}>
+              {/* <div onClick={handleMessageSend} className={styles.sendButton}> */}
+              <div className={styles.sendButton}>
                 <img src={sendIcon} alt='send message' />
               </div>
             </div>

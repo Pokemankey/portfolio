@@ -31,6 +31,7 @@
 .timeLine span{color: rgba(255, 255, 255, 0.859);font-weight: 900;}
 .timeLine p{color: rgb(156, 156, 156);}
 .rightTimeLineBox:last-of-type{border-left: 2px solid;border-image: linear-gradient(to bottom, white, black) 1;}
+.leftTimeLineBox:last-of-type{border-right: 2px solid;border-image: linear-gradient(to bottom, white, black) 1;}
 
 .projectsWrapper{margin-top: 40px;}
 .projectsCardWrapper{display: flex;flex-wrap: wrap;column-gap: 20px;margin-top: 40px;row-gap: 20px;}
@@ -145,6 +146,7 @@
     .dotsRight { width: 1.39vw; height: 1.39vw; border-radius: 50%; left: -0.69vw; top: -0.56vw; }
     .dotsLeft { width: 1.39vw; height: 1.39vw; border-radius: 50%; right: -0.69vw; top: -0.56vw; }
     .rightTimeLineBox:last-of-type { border-left: 0.14vw solid; }
+    .leftTimeLineBox:last-of-type { border-right: 0.14vw solid; }
     .projectsWrapper { margin-top: 2.78vw; }
     .projectsCardWrapper { column-gap: 1.39vw; margin-top: 2.78vw; row-gap: 1.39vw; }
     .projectsCard { width: 17.36vw; height: 17.36vw; border-radius: 0.69vw; padding: 0.69vw; }
@@ -186,6 +188,7 @@
     .dotsRight { width: 2.0833vw; height: 2.0833vw; border-radius: 50%; left: -1.0417vw; top: -0.8333vw; }
     .dotsLeft { width: 2.0833vw; height: 2.0833vw; border-radius: 50%; right: -1.0417vw; top: -0.8333vw; }
     .rightTimeLineBox:last-of-type { border-left: 0.2083vw solid; }
+    .leftTimeLineBox:last-of-type { border-right: 0.2083vw solid; }
     .projectsWrapper { margin-top: 10vw; text-align: center;}
     .projectsWrapper h2{font-size: 10vw;}
     .projectsCardWrapper { column-gap: 4vw; margin-top: 10vw; row-gap: 4vw; justify-content: center;}
