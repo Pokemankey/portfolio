@@ -171,7 +171,7 @@ function App() {
           <div className={styles.projectsCardWrapper}>
             <div className={styles.projectsCard}>
               <h3>Blind Helmet</h3>
-              <p>Built an AI powered helmet to aid the blind by performing functions just as object detection, facial recognition, Gemini integration and much more...</p>
+              <p>Built an AI powered helmet to aid the blind by performing functions such as object detection, facial recognition, Gemini integration and much more...</p>
               <div className={styles.iconsWrapper}>
                 <img src={pythonIcon} />
                 <img src={raspberryIcon} />
@@ -212,7 +212,7 @@ function App() {
             </div>
             <div className={styles.projectsCard}>
               <h3>Zero Gravity</h3>
-              <p>This project was a 2d Video Game which had multiple game modes to play from, this game was posted on play store, but then was later removed.</p>
+              <p>This project was a 2D Video Game which had multiple game modes to play from, this game was posted on play store, but then was later removed.</p>
               <div className={styles.iconsWrapper}>
                 <img src={unityIcon} />
               </div>
