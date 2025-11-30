@@ -17,7 +17,7 @@ import arduinoIcon from './Assets/arduino.png'
 import yoloIcon from './Assets/yolo.png'
 import expressIcon from './Assets/express.png'
 import chatBotIcon from './Assets/chatbot.png'
-import cv from './Assets/Srilakshman CV.pdf'
+import cv from './Assets/Srilakshman_CV.pdf'
 import closeIcon from './Assets/close.png'
 
 
@@ -144,27 +144,28 @@ function App() {
             </a>
           </div>
           <div className={styles.headerContent}>
-            <p>Hi, I am Srilakshman, Experienced full-stack developer from India, with 3 years of expertise in React, Next, Node.js, and Postgres. Ready to create innovative web solutions!</p>
+            <p>Hi, I’m Srilakshman, a full-stack developer who loves building dependable, real-world software and turning product ideas into scalable, polished experiences.</p>
           </div>
         </div>
+        
         <div className={styles.timeLineWrapper}>
           <h3>My Timeline</h3>
           <div className={styles.timeLine}>
             <div className={styles.rightTimeLineBox}>
               <div className={styles.dotsRight}></div>
-              <p><span>September 2021</span><br /><br />Diploma in computer engineering from Birla Institute of technology</p>
+              <p><span>September 2021</span><br /><br />Diploma in computer engineering from Our Own Indian Highschool, Dubai</p>
             </div>
             <div className={styles.leftTimeLineBox}>
               <div className={styles.dotsLeft}></div>
-              <p><span>September 2023</span><br /><br />Bachelor of Technology in Computer Sciencefrom Amity University Dubai</p>
+              <p><span>September 2023</span><br /><br />Bachelor of Technology in Computer Science from Amity University, Dubai</p>
             </div>
             <div className={styles.rightTimeLineBox}>
               <div className={styles.dotsRight}></div>
-              <p><span>Current</span><br /><br />Web Developer in Cheil</p>
+              <p><span>Dec 2023 - Current</span><br /><br />Fullstack developer in Raen AI</p>
             </div>
-
           </div>
         </div>
+
         <div className={styles.projectsWrapper}>
           <h2>Projects</h2>
           <div className={styles.projectsCardWrapper}>
@@ -265,7 +266,7 @@ function App() {
             </div>
           </div>
         </div>
-        {openChat && <div className={styles.chatBotMessagesWrapper} id='MESSAGES'>
+        {/* {openChat && <div className={styles.chatBotMessagesWrapper} id='MESSAGES'>
           <div className={styles.chatBotMessagesInner}>
             <div className={styles.chatWrapper}>
               <img className={styles.closeIcon} src={closeIcon} onClick={() => setOpenChat(false)} />
@@ -296,12 +297,12 @@ function App() {
               </div>
             </div>
           </div>
-        </div>}
-        <div onClick={() => setOpenChat(!openChat)} className={styles.chatBotIcon} >
+        </div>} */}
+        {/* <div onClick={() => setOpenChat(!openChat)} className={styles.chatBotIcon} >
           {!openChat && <div className={styles.chatBotIconWrapper} id='CHATICON'>
             <img src={chatBotIcon} alt='chat bot' />
           </div>}
-        </div>
+        </div> */}
         <div className={styles.pdfWrapper}>
           <button onClick={handleButtonClick}>{showPDF ? "Hide Resume" : "Resume"}</button>
           {showPDF && (
